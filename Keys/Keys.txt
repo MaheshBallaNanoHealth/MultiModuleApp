@@ -1,5 +1,0 @@
-<server>
-	<id>${server}</id>
-	<username>fA8FICDL</username>
-	<password>W+twTqCXIm85dZs1d3XR8m7+RhPiG43BaJXpPoX9wZ8B</password>
-</server>

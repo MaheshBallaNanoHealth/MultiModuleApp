@@ -10,7 +10,7 @@ mavenPublishing {
     publishToMavenCentral(SonatypeHost.CENTRAL_PORTAL)
     signAllPublications()
 
-    coordinates("com.nanohealthplan.android", "support", "1.0.0")
+    coordinates("com.nanohealthplan.android", "nh_utility", "1.0.0")
 
     pom {
         name.set("NH Utility")
@@ -23,19 +23,20 @@ mavenPublishing {
                 distribution.set("http://www.apache.org/licenses/LICENSE-2.0.txt")
             }
         }
-//        url.set("https://github.com/username/mylibrary/")
-       /* developers {
+        url.set("https://github.com/MaheshBallaNanoHealth/MultiModuleApp.git")
+        developers {
             developer {
-                id.set("username")
-                name.set("User Name")
-                url.set("https://github.com/username/")
+                id.set("MaheshBallaNanoHealth")
+                name.set("Mahesh NH")
+                url.set("https://github.com/MaheshBallaNanoHealth")
             }
         }
         scm {
-            url.set("https://github.com/username/mylibrary/")
-            connection.set("scm:git:git://github.com/username/mylibrary.git")
-            developerConnection.set("scm:git:ssh://git@github.com/username/mylibrary.git")
-        }*/
+            url.set("https://github.com/MaheshBallaNanoHealth/MultiModuleApp.git")
+            connection.set("scm:git:git://MaheshBallaNanoHealth/MultiModuleApp.git")
+            developerConnection.set("scm:git:ssh://git@github.com:MaheshBallaNanoHealth/MultiModuleApp.git")
+
+        }
     }
 }
 
